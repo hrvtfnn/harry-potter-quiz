@@ -24,6 +24,6 @@ I have only solved one of the many mysteries of JavaScript, but it feels like a 
 - [x] Connect "Submit button"
 - [x] Figure out how to make the result page
 - [x] Add gif to make it fun
-- [ ] Work on responsibility more
-- [ ] Add animation to the "Submit button"
+- [ ] Update mobile version button animation
+- [ ] Add animation to the "Submit button" (mobile+desktop)
 - [x] Update screenshot
