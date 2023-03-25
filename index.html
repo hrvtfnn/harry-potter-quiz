@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <title>Harry Potter Trivia Quiz</title>
+  </head>
+  <body>
+    <img src="/assets/hp-logo.png" class="HP-logo" alt="HP-logo">
+    <!-- Welcome screen -->
+    <div id="welcome" class="wrapper">
+      <div class="title">
+        <p class="welcome-text">
+          Test your knowledge of the entire Wizarding world!<br>
+          You may only be a muggle, but if you're a die-hard Harry Potter fan,
+          then you'll do as well as Hermione Granger on this quiz!
+        </p>
+      </div>
+      <button id="start" class="start-button">Start quiz</button>
+    </div>
+    <!-- Quiz -->
+    <div class="quiz-container wrapper" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Question Text</h2>
+        <ul>
+          <li class="answers">
+            <input type="radio" name="answer" id="a" class="answer check-with-label">
+            <label for="a" id="a_text" class="label-for-check">Answer</label>
+          </li>
+          <li class="answers">
+            <input type="radio" name="answer" id="b" class="answer check-with-label">
+            <label for="b" id="b_text" class="label-for-check">Answer</label>
+          </li>
+          <li class="answers">
+            <input type="radio" name="answer" id="c" class="answer check-with-label">
+            <label for="c" id="c_text" class="label-for-check">Answer</label>
+          </li>
+          <li class="answers">
+            <input type="radio" name="answer" id="d" class="answer check-with-label">
+            <label for="d" id="d_text" class="label-for-check">Answer</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
